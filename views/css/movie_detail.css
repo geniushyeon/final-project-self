@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header {
+    background-color: beige;
+    width: 100%;
+    height: 300px;
+}
+
+#basic-info-and-rating {
+    height: 250px;
+}
+#poster {
+    position: relative;
+    width: 166px;
+    height: 230px;
+    overflow: hidden;
+    top: -30px;
+    left: 120px;
+}
+
+#basic-info {
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    top: -220px;
+}
+
+#basic-info h1 {
+    font-weight: 700;
+    font-size: 33px;
+}
+
+#watch-or-comment {
+    margin-top: 40px;
+}
+
+#wanna-watch {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(255, 7, 88);
+    border: none;
+    font-weight: 500;
+    padding: 0 16px;
+}
+
+/* #wanna-watch:hover {
+    background-color: white;
+    color: rgb(255, 7, 88);
+    border: 2px solid rgb(255, 7, 88);
+} */
+
+#star-rating {
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: -77px;
+}
+
+#star-rating p {
+    margin: 5px 0;
+}
+
+#star-average {
+    width: 800px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 3px;
+    margin-bottom: 10px;
+}
+
+#year-genre-country {
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+#main-info-container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 40px;
+    border: 0.5px solid #e3e3e3;
+}
+
+.info-title {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#more-info {
+    float: right;
+}
+#plot {
+    padding: 10px 0;
+    border-bottom: 0.5px solid #e3e3e3;
+}
+
