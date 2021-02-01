@@ -18,23 +18,37 @@ header {
     height: 300px;
 }
 
+
+#main-container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
 #basic-info-and-rating {
     height: 250px;
+    margin-left: 140px;
 }
+
 #poster {
     position: relative;
     width: 166px;
     height: 230px;
     overflow: hidden;
     top: -30px;
-    left: 120px;
+    
 }
 
 #basic-info {
-    position: relative;
+    width: 800px;
+    position: absolute;
     display: inline-block;
-    left: 300px;
-    top: -220px;
+    left: 0;
+    top: 2px;
+    display: block;
+    margin: 0 auto;
+    left: 140px;
+    margin-left: 200px;
 }
 
 #basic-info h1 {
