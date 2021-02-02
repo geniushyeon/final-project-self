@@ -18,11 +18,19 @@ header {
     height: 300px;
 }
 
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 #main-container {
     position: relative;
     width: 1280px;
     margin: 0 auto;
+    
 }
 
 #basic-info-and-rating {
@@ -42,11 +50,11 @@ header {
 #basic-info {
     width: 800px;
     position: absolute;
+    margin: 0 auto;
     display: inline-block;
     left: 0;
     top: 2px;
     display: block;
-    margin: 0 auto;
     left: 140px;
     margin-left: 200px;
 }
@@ -69,11 +77,13 @@ header {
     padding: 0 16px;
 }
 
-/* #wanna-watch:hover {
+#wanna-watch:hover {
     background-color: white;
     color: rgb(255, 7, 88);
     border: 2px solid rgb(255, 7, 88);
-} */
+    font-weight: bold;
+    transition: all 0.2s ease;
+} 
 
 #star-rating {
     display: inline-block;
@@ -103,21 +113,56 @@ header {
     width: 1000px;
     height: 100%;
     margin: 0 auto;
-    margin-top: 50px;
-    padding: 0 40px;
+    padding: 0 40px 30px;
     border: 0.5px solid #e3e3e3;
+    border-radius: 0.4rem;
 }
 
-.info-title {
+.detail-info {
+    margin: 40px 0 15px;
+}
+.detail-info h4{
     font-weight: bold;
-    margin-top: 40px;
+    display: inline-block;
 }
 
-#more-info {
-    float: right;
+#video-zone {
+    width: 900px;
+    height: 550px;
+    margin: 0 auto;
 }
+
+.more-info a{
+    float: right;
+    font-size: 18px;
+    color: rgb(255, 7, 88);
+}
+
+.more-info a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
 #plot {
     padding: 10px 0;
     border-bottom: 0.5px solid #e3e3e3;
 }
 
+.comment-card {
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    margin-right: 33px;
+    margin-top: 10px;
+    background-color: #e3e3e3;
+}
+
+.collection-card {
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    margin-right: 33px;
+    margin-top: 10px;
+    background-color: #e3e3e3;
+}
