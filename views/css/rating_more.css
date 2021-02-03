@@ -133,3 +133,9 @@ header {
     border: none;
     background-color: white;
 }
+
+.like-and-report button:hover {
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
